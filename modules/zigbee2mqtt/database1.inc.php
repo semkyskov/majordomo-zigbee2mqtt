@@ -3238,7 +3238,17 @@ $par1['extend'] = "";
 $par1['fromZigbee'] = "";
 $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);
-
+    
+$par1['zigbeeModel'] = 'TS0121_plug';
+$par1['model'] = "TS0121_plug";		 
+$par1['vendor'] = "TYUA";		 
+$par1['type'] = "relay";		 
+$par1['description'] = "BlitzWolf BW-SHP13";		 
+$par1['extend'] = "";		 
+$par1['supports'] = "on/off, power measurement";		 
+$par1['fromZigbee'] = "";		 
+$par1['toZigbee'] = "";		 
+SQLInsert('zigbee2mqtt_devices_list', $par1);
 
 }
 
