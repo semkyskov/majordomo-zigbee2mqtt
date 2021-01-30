@@ -3239,6 +3239,10 @@ $par1['fromZigbee'] = "";
 $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);
     
+////////////////////////////////////////////////
+//TuYa TS0121_plug  https://www.zigbee2mqtt.io/devices/TS0121_plug.html
+////////////////////////////////////////////////
+    
 $par1['zigbeeModel'] = 'TS0121_plug';
 $par1['model'] = "TS0121_plug";		 
 $par1['vendor'] = "TYUA";		 
